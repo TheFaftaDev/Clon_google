@@ -1,0 +1,174 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+.contenedor{
+    position: relative;
+    top: 2%;
+    height: 100%;
+    font-size: 13px;
+}    
+#boton{
+    position: absolute;
+    left: 94%;
+    top: 60%;
+    height: 23px;
+}
+#perfil{
+    height: 32px;
+    position: absolute;
+    left: 97%;
+    top: 40%;
+}
+#imagen{
+    position: absolute;
+    left: 88%;
+    top: 100%;
+}
+#gmail{
+    position: absolute;
+    left: 84%;
+    top: 100%;
+
+}
+#logo{
+height: 92px;
+width: 272px;
+position: absolute;
+top: 10%;
+left: 40%;
+}
+.Barra_busqueda{
+    position: relative;
+    width: 1200px;
+    height: 240px;
+    top: 160px; 
+}
+#input-search{
+    height: 43px;
+    width: 560px;
+    border: 1px solid rgb(223, 225, 229);
+    border-radius: 50px;
+    position: absolute;
+    left: 380px;
+    top: 0px;
+}
+#lucky, #search{
+    height: 38px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(60, 64, 67);
+    background-color: rgb(248, 249, 250);
+    font-size: 14px;
+}
+#lucky{
+    position: absolute;
+    top: 85px;
+    left: 685px;
+}
+#search{
+    position: absolute;
+    top: 85px;
+    left: 525px;
+}
+#Microfono{
+    position: absolute;
+    height: 24px;
+    left: 870px;
+    top: 13px;
+}
+#Camara{
+    position: absolute;
+    height: 24px;
+    top: 11px;
+    left: 907px;
+}
+#Lupa{
+    position: absolute;
+    height: 18px;
+    top: 15px;
+    left: 395px;
+}
+p{
+
+    background-color: rgb(242,242,242,);
+}
+#input-search:hover{
+    box-shadow: 0 4px 8px 0 rgb(242,242,242,);
+}
+.Ubicacion{
+    position: relative;
+    width: 100%;
+    height: 55px;
+    top: 275px;
+    background-color: #f2f2f2;
+}
+p{
+    position: absolute;
+    font-family: Arial, sans-serif;
+    top: 6px;
+    font-size: 15px;
+}
+#gris{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(218, 220, 224);
+    top: 275px;
+}
+footer{
+    position: relative;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 45px;
+    top: 276px;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    color: rgb(60, 64, 67);
+
+   
+}
+a{
+    text-decoration: none;
+    color: rgb(60, 64, 67);
+
+}
+.flex0{
+    display: flex;
+    width: 100%;
+    position: relative;   
+    
+}
+.flex1{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items:flex-start;
+    
+}
+.flex2{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items:flex-end;
+    position: absolute;
+    right: 0px;
+}
+select{
+    appearance: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    padding: 0;
+    border: none;   
+    background-color: transparent; 
+    font-size: inherit; 
+  }
+   #lucky:hover{
+    border-color:rgb(218, 220, 224);
+    border-width: 3px;
+  }
+  #input-text::hover {
+    border-color: rgba(218, 220, 224, 0.5); 
+    box-shadow: 0 0 10px 5px rgba(218, 220, 224, 0.5); 
+  }
